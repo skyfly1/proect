@@ -1,0 +1,656 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+body{
+	height: 100%;
+	font-family:  'Times New Roman', Times,sans-serif;
+	background-color: #FFF;
+}
+
+ol,
+ul{
+	list-style: none;
+}
+
+* {
+	margin:0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-box-sizing:border-box;
+}
+/*@media screen and (max-width: 1000px){
+  .puma{
+	width: 100%;
+	padding-left: 0.5%;250px/1600px
+	height: 0.5%;
+	padding-top: 0.5%;
+}
+.spam{
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+}
+}*/
+ a{text-decoration: none;}
+
+
+.clearfix:before,
+.clearfix:after{
+	content:"";
+	display: table;
+}
+.clearfix:after{clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+ li{
+ 	list-style-type: none;
+ }
+.osnova{
+	width: 100%; /*1500px*/
+	
+}
+.container{
+	width: 78%;  /*1170px/1500px */
+    margin: 0 auto;
+}
+.header {
+	width: 100%;
+	background: url(temp.png) no-repeat center center;
+	background-size: cover;
+}
+.text{
+	text-transform: uppercase;
+}
+header{
+	padding-top: 5.5%;
+}
+header img{
+	width: 8.547009%; /*100px/1170px*/
+	height: 21.367521%; /*250px/1170px;*/
+	float: left;
+	margin-right: 61.5%; /*800px/1170px*/
+}
+nav li{
+	margin-right: 5.5%; /*22px/1170px*/
+}
+nav:last-child{
+	margin-right: 0px; /*22px/1170px*/
+}
+
+.cla{
+	display: flex;
+}
+nav a{
+	font : bold 1em/1em sans-serif;
+	color: black;
+}
+.inform{
+	text-align: right;
+	padding-bottom: 7%;
+	width:70%;
+	float: right;
+
+}
+.menu{
+	margin-bottom: 25%; /*395px/1000px;*/
+}
+h1{
+	font-size: 4.5em;
+	line-height: 2em;
+	font-family: sans-serif;
+}
+.inform p{
+	
+	font-size: 1em;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	margin-bottom: 7%;
+}
+button{
+	background-color: transparent;
+	border-color: black;
+	padding: 1.5% 5%;
+	font-size: 1.125em;
+	cursor: pointer;
+}
+button:hover{
+	background-color: rgba(0,0,0,.5);
+	border-color: rgba(0,0,0,.5);
+	color: white;
+}
+hr{
+	margin-left: 88%;
+	margin-bottom: 2.5%;
+}
+
+
+#main{
+	width:100%;
+}
+.inf{
+	width:82.905983%;
+	padding-top: 5%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 6.5%;
+}
+h2{
+ font: bold 1.6875em/1em sans-serif;
+}
+.inf h2{
+	margin-bottom: 2%;
+}
+.inf p{
+	font: 0.8em/2em sans-serif;
+}
+.info{
+	margin-bottom: 2%;
+}
+.opisanie{
+	width: 100%;
+	background-color: #bfbfbf;
+}
+.raz{
+	width: 33.33%;
+	text-align: left;
+	padding-bottom: 5%;
+}
+.raz h3{
+	font: bold 1.125em/1.125em sans-serif;
+	margin-bottom: 2%;
+}
+
+.raz p{
+	font:  1em/1.3em sans-serif;
+}
+.pop{
+	padding-top: 5%;
+}
+.pop:first-child .raz{
+	float: left;
+
+}
+.pir{
+	margin-bottom: 2%;
+}
+.reatured{
+	width: 100%;
+}
+.reat{
+	padding-top: 5%;
+    text-align:center;
+}
+.reat h2{
+	margin-bottom: 4%;
+}
+.reat p{
+	font:  0.9em/2em sans-serif;
+	margin-bottom: 8%;
+}
+.sky{
+	width: 30%;
+	background-color:#212121;
+	margin-right: 2%;
+}
+
+.cuc{
+    display: flex;
+    padding-bottom: 10%;
+}
+.cont{
+	width: 87%;
+	margin: 0 auto;
+	text-align: left;
+}
+h4{
+	font: 0.875em/0.875em sans-serif;
+	color:rgba(255,255,255,0.7);
+	text-transform: uppercase;
+	margin-bottom: 10%;
+	padding-top: 30%;
+}
+.cont h3{
+	font: 1.5em/1.2em sans-serif;
+	margin-bottom: 45%;
+	color: rgba(255,255,255,0.9);
+}
+.mur h3{
+	margin-bottom: 35%;
+}
+.cont{
+	padding-bottom: 20%;
+}
+.nuj p{
+	font: 0.825em/1.8em sans-serif;
+	color: rgba(255,255,255,0.7);
+	text-transform: uppercase;
+	padding-top: 3%;
+}
+.nuj .left{
+	margin-right: 5%;
+}
+.clients{
+	width: 100%;
+	background-color: #bfbfbf;
+}
+.vnutr{
+	padding-top: 5%;
+	text-align: center;
+}
+.vnutr h2{
+	margin-bottom: 3%;
+}
+.flex{
+	display: flex;
+	padding-bottom: 5%;
+}
+.flex li{
+	margin-right: 3.5%;
+}
+.plot{
+	margin-left: 11.5%;
+}
+.port{
+	text-align: center;
+	padding-top: 5%;
+}
+.port h2{
+	margin-bottom: 3%;
+}
+.port p{
+	font: 0.825em/1.8em sans-serif;
+	margin-bottom: 5%;
+}
+.port hr{
+	margin-left: 45%;
+	margin-bottom: 5%;
+}
+.mops{
+ display: flex;
+   margin-left: 30%;
+}
+.portfolio{
+	width: 100%;
+}
+.portfolio .container{
+ margin-bottom: 5%;
+}
+.mops li{
+	margin-right: 3%;
+	font:bold 1.3em sans-serif;
+}
+.smurf {
+	display: flex;
+	padding-bottom: 7%;
+}
+.smurf li{
+	float: left;
+}
+.slova{
+	width: 100%;
+	background-color: #212121;
+}
+.cent{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+.cent h2{
+	margin-bottom: 1%;
+	font-size: 4em;
+}
+.cent p{
+	margin-bottom: 3%;
+	font: 1em/2em sans-serif;
+}
+.cent h2,
+.cent p{
+	color: rgba(255,255,255,0.9);
+}
+.team{
+     width: 100%;
+}
+.tea{
+	text-align: center;
+	padding-top: 5%;
+	width: 100%;
+}
+.tea h2{
+	margin-bottom: 2%;
+}
+.tea>p{
+	margin-bottom: 8%;
+	font: 1em/2em sans-serif; 
+}
+.tem{
+	display: flex;
+	margin-left: 10%;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+.tem div{
+	width: 25%;
+}
+.tem img{
+	margin-bottom: 23%;
+}
+.murf{
+	margin-bottom: 5%;
+	font:bold 1em sans-serif;
+	text-transform: uppercase;
+}
+.facts{
+	background: url(img/lol.png) no-repeat center center;
+	font-size: cover;
+	width: 100%;
+}
+.fac{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 100%;
+}
+.fac h2{
+	margin-bottom: 5%;
+}
+.mkl{
+	width: 60%;
+	margin:0 auto;
+	background-color: rgba(141,141,141,0.6);
+	display: flex;
+	flex-wrap:wrap;
+}
+.mol{
+	margin-left: 13%;
+	margin-right: 26%;
+	
+}
+.lpl{
+	margin-bottom: 6%;
+}
+.mkl div{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.mkl hr{
+	margin-bottom: 6%;
+	margin-left: 37%;
+}
+.pisf{
+	margin-right: 22.5%;
+}
+.mkl div p{
+	font: bold 1em sans-serif;
+	color: rgba(255,255,255,0.7);
+}
+.sos{
+	margin-left: 47%;
+}
+.photo{
+	width: 100%;
+}
+.phot{
+	width: 100%;
+	display: flex;
+	padding-top: 5%;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-bottom: 5%;
+}
+.phot section{
+	width:48.5%;
+	margin-right: 1.5%;
+	margin-bottom: 2%;
+}
+.lkj{
+    margin-top:10%; 
+}
+.asa{
+	margin-bottom: 2%;
+	font: 0.8em sans-serif;
+}
+.dfg{
+	font: 0.8em/2em sans-serif;
+}
+.lkj h3{
+	font: bold 1em sans-serif;
+	margin-bottom: 4%;
+}
+.phot section img{
+	width: 100%;
+	height: 20%;
+}
+.name{
+	width: 100%;
+	background-color: #efefef;
+}
+.nam{
+	padding-top: 5%;
+	display: flex;
+	padding-bottom: 5%;
+}
+.nam section {
+	border-left: 5px solid black;
+	margin-right: 10%;
+	padding-left: 3%;
+}
+.nam section h3{
+	font: bold 1em sans-serif;
+	margin-bottom: 4%;
+}
+.hol{
+	font-size: 0.8em;
+	color:rgba(157,157,157,0.9);
+}
+.con{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.jhg{
+	margin-bottom: 5%;
+}
+.dsa{
+	font: 1em/1.6em sans-serif;
+	margin-bottom: 3%;
+}
+.usa{
+	font: 0.7em;
+}
+footer{
+	width: 100%;
+	background-color: #212121;
+}
+footer .container{
+	padding-bottom: 5%;
+}
+.unicorn{
+	padding-top: 7%;
+	text-align: left;
+	width: 100%;
+	padding-bottom: 3%;
+	display: flex;
+	margin-bottom: 3%;
+}
+.unicorn h2{
+	margin-bottom: 6%;
+	color: white;
+}
+.unicorn p{
+	font:  0.85em/2em sans-serif;
+	color: rgba(255,255,255,0.7);
+	margin-bottom: 8%;
+}
+.end{
+	width: 48%;
+	margin-right: 13%;
+}
+.mnb{
+	float: left;
+	margin-right: 10%;
+
+}
+.nhy{
+	color:rgba(255,255,255,0.7);
+	text-transform: uppercase;
+	background-color: transparent;
+	border-bottom: 0.15em  solid #999999;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 41%;
+	margin-bottom:6%;
+	padding-bottom: 2%;
+
+}
+.mji{
+	width: 92% ;
+}
+.gty{
+	margin-right: 8%;
+}
+.gty h3{
+  font: 0.9em sans-serif;
+  color:white;
+  text-transform: uppercase;
+  margin-bottom: 70%;
+}
+.gty  li{
+	font: 0.8em sans-serif;
+	color:rgba(255,255,255,0.7);
+	margin-bottom: 13%;
+}
+.hjy{
+	width: 100%;
+	padding-bottom: 1%;
+}
+
+.nhg{
+	width: 100%;
+	padding-bottom: 3%;
+}
+.nhg p{
+	font:  0.85em/2em sans-serif;
+	color: rgba(255,255,255,0.7);
+	float: left;
+	margin-right: 18%;
+}
+.ded{
+	padding-top: 1.5%;
+}
+.ded li{
+	text-transform: uppercase;
+	color:rgba(255,255,255,0.7);
+	font: 0.9em sans-serif;
+}
+.nba{
+	width: 10%; 
+	float: left;
+}
+.ngl{
+	cursor: pointer;
+}
+.mjz{
+	width: 15%;
+	float: left;
+}
+.flex li img{
+	max-width: 100%;
+}
+.tea div img{
+     max-width: 100%;
+}
+@media screen and ( max-width: 1150px){
+  header img{ margin-right: 50%;}
+  .raz{ width: 100%; text-align: center}
+  .sky{width: 90%;  margin-bottom: 5%;}
+  .cuc{ display: block;}
+  .raz p{font-size: 100%;}
+  .raz h3{font-size: 2.2em;}
+  .port p{font-size: 1.5em;}
+  .left img{width: 120px; height: 120px;}
+  .plot{margin-left: 2.5%;}
+   hr{ width: 25%; }
+   .cent p{ font-size: 0.8em; }
+   .port p{ font-size: 0.8em; }
+   .mops li{ font-size: 1.8em; }
+   .mops{margin-left: 16%; }
+   .tea h2{font-size: 1.3em;}
+   .tea>p{font-size: 0.8em;}
+   .murf{font-size: 1em;}
+   .lop{font-size: 0.9em;}
+   .inform hr{ margin-left: 75%; }
+   .mkl div p{font-size: 1.1em;}
+   .mol{ margin-right: 17%;margin-left: 7% }
+   .pisf{margin-right: 11%;}
+   .fac>hr{width: 10%;margin-left: 46%;}
+   .fac h2{font-size: 1.2em;}
+   .reat h2{font-size: 1.2em;}
+   .reat p{font-size: 0.8em;}
+   .lkj{margin-top: 5%;}
+   .unicorn p{font-size: 1.5em;}
+   .nhy{font-size: 1em;}
+   .gty h3{font-size: 0.7em;}
+   .gty  li{font-size: 0.6em;}
+   .gty{margin-right: 12%;}
+   .nhg p{font-size: 1em;}
+   .nba{width:12%;}
+   .bfk{width: 9%;float: left;}
+   .mjz{width: 20%;}
+   .nds{width: 45%;}
+   .ded{padding-top: 5%;}
+   .nhg{padding-bottom: 7%;}
+   .phot section{width: 100%;}
+}
